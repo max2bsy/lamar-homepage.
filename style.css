@@ -1,0 +1,199 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+}
+
+.smallcolumn {
+  height: 100%;
+  width: 25%;
+}
+.bigcolumn {
+  height: 100%;
+  width: 50%;
+  display: block;
+}
+.row {
+  height: 20%;
+  width: 100%;
+}
+.vidbox {
+  height: calc(2 * (100% / 3));
+  width: 100%;
+}
+.vidbox1 {
+  height: 83%;
+  width: 83%;
+}
+.songtitlebox {
+  height: calc(100% / 7);
+  width: 100%;
+}
+.songtitlebox1 {
+  height: 100%
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.button {
+cursor: pointer;
+}
+.show {
+  display: flex;
+  }
+.hide {
+  display none;
+  }
+.button:hover {
+  cursor: pointer;
+  filter: drop-shadow(3px 4px 4px);
+  transform: scale(1.02, 1.02);
+  }
+.button:active {
+  cursor: pointer;
+  transform: scale(0.95, 0.95);
+    }
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+h1 {
+  font-size: 400%;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  font-size: 400%;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  color: #5fa173;
+  font-weight: bold;
+}
+h3 {
+  font-size: 400%;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fb070a;
+  font-weight: bold;
+}
+.arrow {
+  cursor: default;
+}
+.forbidden {
+  cursor: not-allowed;
+}
+
+
+.red {
+  background-color: #ca1b22;
+}
+.orange {
+  background-color: #ea6626;
+}
+.yellow {
+  background-color: #cfd20f;
+}
+.green {
+  background-color: #008d24;
+}
+.blue {
+  background-color: #0b69c0;
+}
+.purple {
+  background-color: #3a246d;
+}
+.pink {
+  background-color: #e9009b;
+}
+.grey {
+  background-color: #9c9c9c;
+}
+.darkgrey {
+  background-color: #5a5a5a;
+}
+.cement {
+  background-color: #c3c0b4;
+}
+.row-bottom{
+display: none;
+}
+.row-top{
+display: none;
+}
+
+@media only screen and (max-width: 950px) {
+  h1{
+    font-size: 350%;
+  }
+  h2{
+    font-size: 310%;
+  }
+  h3{
+    font-size: 310%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  h1{
+    font-size: 200%;
+  }
+  h2{
+    font-size: 200%;
+  }
+  h3{
+    font-size: 200%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .row-top{
+height: 50%;
+width: 100%;
+display: flex;
+  }
+.row-bottom{
+    height: 50%;
+    width: 100%;
+    display: block;
+  }
+.row{
+    display: none;
+  }
+.row1{
+    height: calc(100%/5);
+    width: 100%;
+  }
+.half-column{
+  width: 50%;
+  height: 100%;
+}
+.smallcolumn{
+  display: none;
+}
+.bigcolumn{
+  display: none;
+}
+h1{
+  font-size: 300%;
+}
+h2{
+  font-size: 300%;
+}
+h3{
+  font-size: 300%;
+}
+}
